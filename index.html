@@ -16,44 +16,39 @@
         <!-- buttons  -->
         <div class="flex flex-col items-center mt-8">
           <div class="w-full">
-            <button class="w-full font-bold transition-all duration-100 delay-75 ease-in-out hover:bg-green-600 py-4 hover:text-white">Tokyo</button>
+            <button id="defaultOpen" class="btn w-full font-bold transition-all duration-100 delay-75 ease-in-out hover:bg-green-600 py-4 hover:text-white">Tokyo</button>
           </div>
           <div class="w-full">
-            <button class="w-full font-bold transition-all duration-100 delay-75 ease-in-out hover:bg-green-600 py-4 hover:text-white">New York</button>
+            <button class="btn w-full font-bold transition-all duration-100 delay-75 ease-in-out hover:bg-green-600 py-4 hover:text-white">New-York</button>
           </div>
           <div class="w-full">
-            <button class="w-full font-bold transition-all duration-100 delay-75 ease-in-out hover:bg-green-600 py-4 hover:text-white">Banglore</button>
+            <button class="btn w-full font-bold transition-all duration-100 delay-75 ease-in-out hover:bg-green-600 py-4 hover:text-white">Banglore</button>
           </div>
         </div>
       </secttion>
 
       <!-- right section  -->
       <secttion class="w-5/6">
+        <h1 class="text-4xl text-center py-4 bg-pink-400 text-white font-bold border border-black ">Cities</h1>
         <!-- boxes -->
-        <div class="bg-red-200 py-4 px-2 border border-black">
+        <div id="Tokyo" class="box bg-red-200 py-4 px-2 border border-black hidden">
           <h3 class="text-4xl">Tokyo</h3>
           <p class="text-base text-xl mt-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
-            officiis!
+            Tokyo, Japan’s busy capital, mixes the ultramodern and the traditional, from neon-lit skyscrapers to historic temples. The opulent Meiji Shinto Shrine is known for its towering gate and surrounding woods. The Imperial Palace sits amid large public gardens. The city's many museums offer exhibits ranging from classical art (in the Tokyo National Museum) to a reconstructed kabuki theater (in the Edo-Tokyo Museum)
           </p>
         </div>
 
-        <div class="hidden bg-red-200 py-4 px-2 border border-black">
-          <h3>New York</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
-            officiis!
+        <div id="New-York" class="box hidden bg-red-200 py-4 px-2 border border-black">
+          <h3 class="text-4xl">New York</h3>
+          <p class="text-base text-xl mt-2">
+            New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean. At its core is Manhattan, a densely populated borough that’s among the world’s major commercial, financial and cultural centers. Its iconic sites include skyscrapers such as the Empire State Building and sprawling Central Park. Broadway theater is staged in neon-lit Times Square. 
           </p>
         </div>
 
-        <div class="hidden bg-red-200 py-4 px-2 border border-black">
-          <h3>Banglore</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
-            officiis!
+        <div id="Banglore" class="box hidden bg-red-200 py-4 px-2 border border-black">
+          <h3 class="text-4xl">Banglore</h3>
+          <p class="text-base text-xl mt-2">
+            Bengaluru (also called Bangalore) is the capital of India's southern Karnataka state. The center of India's high-tech industry, the city is also known for its parks and nightlife. By Cubbon Park, Vidhana Soudha is a Neo-Dravidian legislative building. Former royal residences include 19th-century Bangalore Palace, modeled after England’s Windsor Castle, and Tipu Sultan’s Summer Palace, an 18th-century teak structure. 
           </p>
         </div>
       </secttion>
